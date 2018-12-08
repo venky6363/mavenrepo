@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://104.196.65.246:8081/repository/venky.rel/</url>
+            <url>http://104.196.65.246:8081/nexus/repository/maven-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://104.196.65.246:8081/repository/venky.snap/</url>
+            <url>http://104.196.65.246:8081/nexus/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
